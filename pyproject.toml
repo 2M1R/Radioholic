@@ -1,0 +1,11 @@
+[project]
+name = "Radioholic"
+version = "0.1.0"
+description = "A small Qt app to searching and listening internet radio"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mpv>=1.0.8",
+    "pyradios>=2.1.1",
+    "pyside6>=6.10.2",
+]
